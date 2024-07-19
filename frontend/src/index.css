@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Poppins', sans-serif;
+}
+
+/* ==========ItemForm.css================== */
+.create-item {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #667BC6;
+}
+
+.create-item h1 {
+  text-align: center;
+  font-size: 3rem; 
+}
+
+.create-item form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 70%; 
+  padding: 0.5rem;
+  font-size: 1.5rem; 
+  border-radius: 12px;
+}
+
+.form-group.center {
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 13px;
+  width: 242px;
+  background-color: #91DDCF;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #219C90;
+  color: black;
+}
+
+::selection {
+  background-color: #1A5319;
+  color: white;
+}
+
+/* ============ItemList.css================= */
+.item-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.item-list h1 {
+  font-size: 3.6rem;
+text-align: center;
+text-transform: uppercase;}
+
+.item {
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-table th,
+.item-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.item-actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.item-actions button {
+  margin-right: 1rem;
+  font-size: 1.7rem;
+  padding: 12px;
+}
+
+.details {
+  font-weight: bold;
+}
